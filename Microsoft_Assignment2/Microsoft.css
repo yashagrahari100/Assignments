@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    height: 54px;
+    width: 100%;
+    padding: 0px 63px;
+    
+}
+.navbar-left{
+    height: 54px;
+    width: 758px;
+    display: flex;
+    padding: 0px 1px 6px 11px;
+    
+}
+
+.navbar-item{
+padding-right: 21px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 13px;
+margin-top: 18px;
+}
+.logo-div{
+    height: 54px;
+    width: 137px;
+}
+#logo{
+margin: 15px 6px 15px 10px;
+float: left;
+height: 23px;
+width: 108px;
+
+}
+.navbar-right{
+    display: flex;
+    height: 54px;
+    width: 243px;
+
+}
+.navbar-right-item{
+    margin-top: 18px;
+    width: 117px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.navbar-right-icon{
+    margin-top: 18px;
+    padding-right: 20px;
+    
+}
