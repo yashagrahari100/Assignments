@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.navbar {
+    margin: 0%;
+    height: 42px;
+    width: 100%;
+    padding: 0px 120px;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+    font-size: 12px;
+    color: black;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.navbar-icon {
+    color: black;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    border-top: 40px solid white;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.section .left-section {
+    background-image: url("iphone.jpg");
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 30px 20px 30px 20px;
+}
+
+.section .middle-section {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-watch-pride-202505?wid=800&hei=1000&fmt=png-alpha&.v=QWhYaUFuRS9hTUliZ3N5RWVCV09vdDYvU0ZacGROckNJUjJGMTk0bnRxaHFTRjNxbmh1UnU2R29ibGdpZUFXc3V5NVU0QmM2b3hmeWJWTTVtN1o5ZnNZK25GTnpvbUY1UTI4WmI2VjkwM1YrYWpGdS9XeFgvbS9ITnNYOEhYaG4);
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 30px 20px 30px 20px;
+}
+
+.section .right-section {
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-macbook-air-202503?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=MjhMcWJ2MGZwbXEwdnBkcUN6ZnhyOWVOMytmanI1M0ZTQWR1RjlDMWJpNXFTRjNxbmh1UnU2R29ibGdpZUFXc0prY3crUWRsN1dqVjRnMHR5S1hVbk15N0N0R0lhUGhlMG1Tdmc3RjZVQ09NTUhYNlZ6OGxKNWpBMHlTSTlldko);
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 30px 20px 30px 20px;
+}
+.left-section .left-content{
+ color: white;
+ position: absolute;
+ top: 50px;
+ left: 30px;
+}
+.overlay{
+    position: relative;
+}
+.middle-section .middle-content{
+ color: black;
+ position: absolute;
+ top: 50px;
+ left: 30px;
+}
+.right-section .right-content{
+ color: black;
+ position: absolute;
+ top: 50px;
+ left: 30px;
+}
+.text{
+    padding: 3px;
+}
+button{
+    padding: 5px 10px;
+    background-color: rgb(251, 245, 157);
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(168, 236, 103);
+    color: yellow;
+    transition: 1s;
+}
